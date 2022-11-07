@@ -6,13 +6,13 @@ Create an attribute "name" in the "Person" class.
 create an object named "person" whose name is "Ali"
 */
 class Person {
-  String name = 'jjjjj';
+  String name = 'ali';
   Person(String name) {
     this.name = name;
   }
 }
 
 void main() {
-  Person x = Person('Ali');
+  Person x = Person('ali');
   print(x.name);
 }

@@ -5,8 +5,8 @@ Create a "Person" class that has a name("name") and a age("age")
 create an object named "person" whose name is "Ali", age is "25"
 */
 class Person {
-  String name = 'Mehroj';
-  int age = 22;
+  String name = 'ali';
+  int age = 25;
   Person(String name, int age) {
     this.name = name;
     this.age = age;
@@ -14,7 +14,7 @@ class Person {
 }
 
 void main() {
-  Person x = Person('Ali', 25);
+  Person x = Person('ali', 25);
   print(x.name);
   print(x.age);
 }

@@ -13,11 +13,16 @@ class Person {
   String p1 = 'Anvar';
   String p2 = 'Shavkat';
   String p3 = 'Jasur';
+  Person(String name) {
+    this.name = name;
+  }
 }
 
 void main() {
-  Person x = Person();
-  print(x.p1);
-  print(x.p2);
-  print(x.p3);
+  Person p1 = Person('anvar');
+  Person p2 = Person('shavkat');
+  Person p3 = Person('jasur');
+  print(p1.name);
+  print(p2.name);
+  print(p3.name);
 }

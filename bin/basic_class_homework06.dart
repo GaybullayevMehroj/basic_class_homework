@@ -4,8 +4,12 @@
 Create a "Person" class that has a name("name") and a age("age")
 */
 class Person {
-  String name = 'Mehroj';
-  int age = 22;
+  String name = 'ali';
+  int age = 25;
 }
 
-void main() {}
+void main() {
+  Person x = Person();
+  print(x.name);
+  print(x.age);
+}

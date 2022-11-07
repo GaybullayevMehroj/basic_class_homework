@@ -10,10 +10,14 @@ class Person {
   String name = '';
   String p1 = 'Anvar';
   String p2 = 'Shavkat';
+  Person(String name) {
+    this.name = name;
+  }
 }
 
 void main() {
-  Person x = Person();
-  print(x.p1);
-  print(x.p2);
+  Person p1 = Person('anvar');
+  Person p2 = Person('shavkat');
+  print(p1.name);
+  print(p2.name);
 }
