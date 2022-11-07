@@ -6,7 +6,7 @@ Create an attribute "name" in the "Person" class.
 create an object named "person" whose name is "Ali"
 */
 class Person {
-  String name = 'mehroj';
+  String name = 'jjjjj';
   Person(String name) {
     this.name = name;
   }
