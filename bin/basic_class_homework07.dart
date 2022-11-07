@@ -7,14 +7,14 @@ create an object named "person" whose name is "Ali", age is "25"
 class Person {
   String name = 'Mehroj';
   int age = 22;
-  Person({required String name, required int age}) {
+  Person(String name, int age) {
     this.name = name;
     this.age = age;
   }
 }
 
 void main() {
-  Person x = Person(age: 25, name: 'Ali');
-  print(x.age);
+  Person x = Person('Ali', 25);
   print(x.name);
+  print(x.age);
 }
